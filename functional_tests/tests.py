@@ -84,5 +84,4 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertIn('우유 사기', page_text)
 
         # 둘 다 만족하고 잠자리에 든다
-        self.fail('Finish the test!') 
-        browser.quit()
+
